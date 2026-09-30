@@ -1,7 +1,7 @@
-# Baile Flow V19
+# Baile Flow V20
 
-Base: V18.
+Atualização sobre a V19, preservando o banco local `baile-flow`.
 
-Preserva o armazenamento local `baile-flow` e incorpora somente as alterações da V19: capacidade/ocupação das turmas, separação de turmas ativas e encerradas, encerramento retroativo, exclusão segura de turmas sem histórico, ordenação de turmas por dia/horário, aula suelta com horário automático da turma e histórico cronológico.
+Principais ajustes: vínculo atual separado do histórico; múltiplas turmas simultâneas; transferência de turma; ocupação por vínculos atuais; encerramento retroativo; exclusão consciente de aulas; aula avulsa; histórico cronológico; backup/restauração.
 
-A V19 mantém o backup/exportação/importação introduzidos na V18.
+Não resetar o armazenamento existente.
