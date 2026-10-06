@@ -1,7 +1,7 @@
-# Baile Flow V20
+# Baile Flow V21
 
-Atualização sobre a V19, preservando o banco local `baile-flow`.
+Versión incremental construida sobre Baile Flow V20.
 
-Principais ajustes: vínculo atual separado do histórico; múltiplas turmas simultâneas; transferência de turma; ocupação por vínculos atuais; encerramento retroativo; exclusão consciente de aulas; aula avulsa; histórico cronológico; backup/restauração.
+Preserva el banco local existente y añade: reposiciones con fecha manual/retroactiva, aniversariantes solo activas, histórico mensual de alumnas activas y crecimiento, valores a recibir por ciclos sin pago, línea de tiempo única de ciclos y clases sueltas, y administración de vínculos sin botón manual de finalizar.
 
-Não resetar o armazenamento existente.
+La app mantiene la misma clave de almacenamiento `baile-flow`, por lo que actualizar los archivos del mismo sitio no debe resetear los datos locales existentes. Exporta un backup antes de actualizar.
