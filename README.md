@@ -1,7 +1,7 @@
-# Baile Flow V22
+# Baile Flow V23
 
-Versión incremental construida sobre Baile Flow V20.
+Versión incremental construida sobre Baile Flow V22. Conserva la clave de almacenamiento local `baile-flow` y no inicializa un banco vacío.
 
-Preserva el banco local existente y añade: reposiciones con fecha manual/retroactiva, aniversariantes solo activas, histórico mensual de alumnas activas y crecimiento, valores a recibir por ciclos sin pago, línea de tiempo única de ciclos y clases sueltas, y administración de vínculos sin botón manual de finalizar.
+Incluye reprogramación con vista previa de desplazamientos de secuencia cuando corresponde, registro de participación anticipada en otra turma vinculado al ciclo individual, identificación visual morada para ese registro y una evolución mensual con indicadores explicados y selección de mes. Mantiene los recursos de la V22, incluidos presencias pendientes, valores a recibir, ciclos, vínculos, pagos e historial.
 
-La app mantiene la misma clave de almacenamiento `baile-flow`, por lo que actualizar los archivos del mismo sitio no debe resetear los datos locales existentes. Exporta un backup antes de actualizar.
+**Antes de actualizar:** exporta un backup desde la versión actual. Actualiza los archivos del mismo sitio para conservar el almacenamiento local del dispositivo.
