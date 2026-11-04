@@ -1,4 +1,4 @@
-# Baile Flow — V25 completa
+# Baile Flow — V26 completa
 
 Esta versão reúne as sete melhorias combinadas a partir da V24. Mantém a mesma chave de armazenamento local e os cinco arquivos do aplicativo.
 
@@ -20,3 +20,15 @@ Esta versão reúne as sete melhorias combinadas a partir da V24. Mantém a mesm
 - Uma aula já associada a presenças ou reposições não pode ser suspensa ou excluída automaticamente sem antes revisar os registros: essa proteção evita alterações indevidas no histórico.
 - Os testes automatizados verificaram sintaxe e fluxos básicos com dados de exemplo. A operação com o banco real da usuária ainda deve ser validada no navegador, após backup.
 - Não é necessário importar o backup se o armazenamento local atual continuar intacto; o backup é uma medida preventiva.
+
+## Ajuste V25.4
+- Datas dos ciclos apresentadas em ordem cronológica real, incluindo antecipações.
+- Etiqueta de antecipação mostra também a aula original substituída, por exemplo **10/10 · Anticipada del 02/11**.
+- Alteração apenas visual, sem modificar presenças, faltas, pagamentos nem dados armazenados.
+
+
+- **Compactação visual**: reposições e antecipações agora exibem apenas dia/mês e usam rótulos abreviados (por exemplo, `Rep. 10-10` e `Ant. 02-11`), ocupando no máximo duas linhas por botão.
+
+## V26
+
+Entrega renomeada para V26, com versão visível e atualização de cache para app.js e styles.css. Mantém as melhorias da V25.4.
