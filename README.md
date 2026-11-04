@@ -1,4 +1,4 @@
-# Baile Flow — V27.1
+# Baile Flow — V27.2
 
 Versão baseada na V26, preservando as melhorias anteriores e a chave local `baile-flow`.
 
@@ -25,3 +25,9 @@ Versão baseada na V26, preservando as melhorias anteriores e a chave local `bai
 - Não reabre pendências já usadas, encerradas ou expiradas, nem aulas substituídas por antecipação.
 - Mantém o prazo regular e o fechamento automático definidos na V27.
 - Não altera presenças, pagamentos ou datas dos ciclos.
+
+## Corrección V27.2
+- Se elimina la eliminación destructiva por fechas coincidentes al guardar reposiciones. Cada falta queda vinculada a su propia clase.
+- Botón «Revisar faltas sin reposición» en el panel de reposiciones: permite identificar registros faltantes o ya cerrados y habilitarlos manualmente con confirmación.
+- Si ya pasó el cierre automático, se exige una nueva fecha límite para autorizar una excepción.
+- No se modifican automáticamente faltas, asistencias o pagos.
