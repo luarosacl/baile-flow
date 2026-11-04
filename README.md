@@ -1,33 +1,18 @@
-# Baile Flow — V27.2
+# Baile Flow — V28.1
 
-Versão baseada na V26, preservando as melhorias anteriores e a chave local `baile-flow`.
+Base: V27.2. Conserva la clave de datos existente y todas las funciones anteriores.
 
-## Novidades
+## Cambios
 
-- Lista de reposições ordenada por vencimento, nome ou data da falta.
-- Pendências permanecem visíveis após o prazo regular de sete dias.
-- Professora pode prorrogar, registrar retroativamente ou encerrar a reposição com motivo.
-- Encerramento automático após mais 30 dias sem ação, preservando a falta e o histórico da reposição.
-- Extensões autorizadas posteriormente preservam a pendência até o novo prazo.
-- Nome V27.1 no aplicativo, exportação de backup e arquivos sem cache.
+- Recuperación excepcional en otro nivel: opción explícita de autorización al registrar una reposición. La excepción queda anotada en el historial; las restricciones habituales siguen activas por defecto.
+- Segunda matrícula de Samba: sugerencia de $16.000 por cuatro clases cuando existe otra matrícula activa de Samba con un ciclo concurrente. La matrícula principal conserva $24.000.
+- Ciclos parciales de 1, 2, 3 o 4 clases: importe proporcional respecto al valor base editable (por ejemplo, dos clases adicionales = $8.000).
+- Cada matrícula conserva ciclos, asistencias y reposiciones independientes. No se recalculan pagos ni ciclos antiguos.
+- Se reserva el proyecto de acceso de administrador, profesor y estudiante para una futura versión; no se ha habilitado acceso externo.
 
-## Publicação no GitHub
+## Publicación
 
-1. Exporte um backup do aplicativo antes de atualizar.
-2. Envie os cinco arquivos extraídos para a mesma pasta do GitHub.
-3. Confirme que o cabeçalho mostra V27 e teste as reposições antigas.
+Exporta un backup antes de subir los cinco archivos de esta carpeta a la raíz del repositorio GitHub. Comprueba el rótulo `V28`. Prueba un ciclo de dos clases en la segunda matrícula y una reposición excepcional con tus datos.
 
-**Nota:** o encerramento automático se executa quando o aplicativo é aberto ou o painel de reposições é consultado, não por um processo de servidor contínuo. A falta e o histórico não são apagados.
-
-## Correção V27.1
-
-- Reconcilia faltas antigas marcadas como `Faltó` que não tenham vínculo de reposição.
-- Não reabre pendências já usadas, encerradas ou expiradas, nem aulas substituídas por antecipação.
-- Mantém o prazo regular e o fechamento automático definidos na V27.
-- Não altera presenças, pagamentos ou datas dos ciclos.
-
-## Corrección V27.2
-- Se elimina la eliminación destructiva por fechas coincidentes al guardar reposiciones. Cada falta queda vinculada a su propia clase.
-- Botón «Revisar faltas sin reposición» en el panel de reposiciones: permite identificar registros faltantes o ya cerrados y habilitarlos manualmente con confirmación.
-- Si ya pasó el cierre automático, se exige una nueva fecha límite para autorizar una excepción.
-- No se modifican automáticamente faltas, asistencias o pagos.
+## Cambios V28.1
+Al inactivar una alumna se cierran todas las reposiciones pendientes; al inactivar una modalidad, solo las de esa modalidad. El historial de faltas, presencias y pagos permanece. También se revisan matrículas ya inactivas sin reabrir pendientes cerradas.
